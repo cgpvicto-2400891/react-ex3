@@ -80,7 +80,7 @@ export default function PanierProvider({
         try {
 
             const response = await axios.get(
-                "https://bieres.profinfo.ca/api/bieres"
+                "/api/bieres"
             );
 
             // L'API retourne :
